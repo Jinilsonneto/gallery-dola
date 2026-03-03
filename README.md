@@ -1,7 +1,5 @@
-================================================================
    IMAGE DOWNLOADER - Anti-Bot Edition v2
    Tutorial de Instalacao e Uso
-================================================================
 
 SOBRE O PROGRAMA
 ----------------
@@ -10,9 +8,8 @@ simulando comportamento humano para contornar protecoes anti-bot
 e Cloudflare. Suporta lazy loading, CSS backgrounds e links diretos.
 
 
-================================================================
 PRE-REQUISITOS
-================================================================
+
 
 - Python 3.8 ou superior instalado
 - pip (gerenciador de pacotes do Python)
@@ -24,9 +21,7 @@ Para verificar se voce tem Python instalado, abra o terminal e digite:
     python3 --version
 
 
-================================================================
 INSTALACAO DAS DEPENDENCIAS
-================================================================
 
 Instale as bibliotecas necessarias com o comando abaixo:
 
@@ -42,9 +37,8 @@ Se o comando pip nao funcionar, tente:
     pip3 install cloudscraper beautifulsoup4 Pillow --break-system-packages
 
 
-================================================================
 COMO USAR
-================================================================
+
 
 1. MODO INTERATIVO (mais facil)
 --------------------------------
@@ -103,9 +97,8 @@ Voce pode personalizar o comportamento com as flags abaixo:
         Exemplo: --delay-max 6.0
 
 
-================================================================
 EXEMPLOS PRATICOS
-================================================================
+
 
 Baixar imagens de uma galeria com configuracoes padrao:
     python Gallery-dola.py https://site.com/galeria
@@ -123,9 +116,9 @@ Combinando tudo:
     python Gallery-dola.py https://site.com/galeria -o resultado -W 400 -H 400 --delay-min 2
 
 
-================================================================
+
 ONDE FICAM AS IMAGENS BAIXADAS
-================================================================
+
 
 As imagens sao salvas em:
 
@@ -147,9 +140,8 @@ Ao final de cada execucao, o programa exibe um resumo:
     - Caminho completo da pasta de destino
 
 
-================================================================
 RESOLUCAO DE PROBLEMAS
-================================================================
+
 
 ERRO: "Dependencias faltando"
     Solucao: Rode o comando de instalacao novamente:
@@ -171,9 +163,8 @@ IMAGENS COM NOMES ESTRANHOS (sequencias de letras e numeros)
       (atributo alt) no HTML. O nome e gerado a partir do endereco da imagem.
 
 
-================================================================
 OBSERVACOES IMPORTANTES
-================================================================
+
 
 - Use este programa apenas em sites que permitem scraping ou cujo
   conteudo seja de sua propriedade. Respeite os Termos de Uso de
@@ -186,13 +177,8 @@ OBSERVACOES IMPORTANTES
 - Formatos suportados: .jpg, .jpeg, .png, .webp, .gif, .bmp, .tiff
 
 
-================================================================
 ESTRUTURA DO PROJETO
-================================================================
 
     Gallery-dola.py    <- Script principal (unico arquivo necessario)
     downloads/         <- Pasta criada automaticamente ao baixar
     
-================================================================
-   Bom uso! Qualquer duvida, abra uma Issue no repositorio.
-================================================================
